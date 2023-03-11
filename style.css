@@ -1,0 +1,40 @@
+.hero {
+  background-image: url(../great1.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+body{
+  height: 10000px;
+}
+.gray {
+  background-color: #f5f5f5;
+}
+.dark-grey {
+  color: #575353;
+}
+.skills-header {
+  text-align: center;
+}
+.skills-header li,
+h3 {
+  text-align: left;
+}
+.borderleft {
+  padding:  20px 0 0 30px;
+  border: none;
+  margin: 10px;
+  /* border-radius: 20px; */
+}
+.borderleft:hover{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.honav:hover{
+  color: #087990 !important;
+}
+.IA{
+  font-size: 5rem;
+}
+.text-blue{
+  color: #087990;
+}
