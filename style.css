@@ -1,17 +1,10 @@
 nav {
   height: 3rem;
   margin-bottom: 20px;
-
 }
 
-.iyad{
-  color: #2098b0;
-  font-size: 4rem;
-}
-
-.abed{
-  font-size: 4rem;
-  color: #b14389;
+.honav:hover {
+  color: #087990 !important;
 }
 
 .hero {
@@ -19,6 +12,18 @@ nav {
   background-size: 100% 100%;
   height: 100vh;
 }
+
+.iyad {
+  color: #2098b0;
+  font-size: 4rem;
+}
+
+.abed {
+  font-size: 4rem;
+  color: #b14389;
+}
+
+/* start-skills */
 
 .gray {
   background: rgb(38, 38, 38);
@@ -30,28 +35,10 @@ nav {
   );
 }
 
-.dark-grey1 {
-  background: rgb(38, 38, 38);
-  background: linear-gradient(
-    to bottom,
-    rgb(193, 193, 193) 0%,
-    rgb(174, 174, 174) 28%,
-    rgb(155, 155, 155) 86%
-  );
-}
-
-.dark-grey {
-  color: #575353;
-}
-
 .skills-header {
   text-align: center;
 }
 
-.skills-header li,
-h3 {
-  text-align: left;
-}
 
 .skills-left {
   padding: 20px 0 0 30px;
@@ -76,9 +63,9 @@ h3 {
   border-radius: 20px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
   display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills-right:hover {
@@ -88,12 +75,17 @@ h3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
-.honav:hover {
-  color: #087990 !important;
-}
+/* end-skills */
+/* start-project */
 
-.text-blue {
-  color: #087990;
+.dark-grey1 {
+  background: rgb(38, 38, 38);
+  background: linear-gradient(
+    to bottom,
+    rgb(193, 193, 193) 0%,
+    rgb(174, 174, 174) 28%,
+    rgb(155, 155, 155) 86%
+  );
 }
 
 .b-project {
@@ -128,10 +120,12 @@ h3 {
   transform: scale(1.1);
 }
 
+/* end-project */
+
 /* animation */
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
-.text-app h1 {
+.container1 h1 {
   font-family: "Montserrat Medium";
   max-width: 40ch;
   text-align: center;
@@ -144,81 +138,81 @@ h3 {
   }
 }
 
-.text-app span {
+span {
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
 }
 
-.text-app span:nth-child(1) {
+span:nth-child(1) {
   animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(2) {
+span:nth-child(2) {
   animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(3) {
+span:nth-child(3) {
   animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(4) {
+span:nth-child(4) {
   animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(5) {
+span:nth-child(5) {
   animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(6) {
+span:nth-child(6) {
   animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(7) {
+span:nth-child(7) {
   animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(8) {
+span:nth-child(8) {
   animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(9) {
+span:nth-child(9) {
   animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(10) {
+span:nth-child(10) {
   animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(11) {
+span:nth-child(11) {
   animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(12) {
+span:nth-child(12) {
   animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(13) {
+span:nth-child(13) {
   animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(14) {
+span:nth-child(14) {
   animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(15) {
+span:nth-child(15) {
   animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(16) {
+span:nth-child(16) {
   animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(17) {
+span:nth-child(17) {
   animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.text-app span:nth-child(18) {
+span:nth-child(18) {
   animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
